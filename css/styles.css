@@ -1,0 +1,162 @@
+body{
+    text-align: center;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
+font-size: 190%;
+line-height: 3.5;
+color: #242F9B;
+}
+@media screen  and (max-width:700px) and (min-width:100px)
+{
+    h1
+    {
+        font-size: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+}
+
+
+
+.nav-link
+{
+    margin-right: 5px;
+}
+.navbar-brand
+{
+    color: white;
+    font-family:  'Montserrat-bold', sans-serif;
+}
+
+ .container-fluid
+ {
+    
+        position: relative;
+        text-align: center;
+        padding: 0px;
+      
+ }
+ .containertext
+ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+
+ #input
+ { 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: text;
+    width: 40%;
+    z-index: 100;
+    overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+ }
+
+
+ .icon
+ {
+    height: 3.5%;
+    top: 68%;
+    left: 66%;
+    position: absolute;
+    color: darkgrey;
+ }
+
+.icon {
+    z-index: 100;
+}
+
+
+#pricing
+{
+    padding-top: 5%;
+    
+}
+p{
+    font-family: 'bree-serif';
+    line-height: 2.5;
+    
+}
+h2,h3{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+.pcolmn
+{
+    padding-bottom: 5%;
+}
+.signup
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 106, 255);
+    color: rgb(0, 106, 255);
+}
+.pritext
+{
+    text-align: left;
+}
+
+
+#agents
+{
+    background-color: #9BA3EB;
+    padding-top: 15%;
+padding-bottom: 45%;
+}
+.human
+{
+    border-radius:100% ;
+    
+}
+.agenttext
+{
+    font-size: 2rem;
+    color: #DBDFFD;
+}
+em
+{
+    color: #DAEAF1;
+}
+@media screen and (max-width:500px) and (min-width:100px)
+{ 
+    #agents
+    {
+        padding-bottom: 55%;
+    }
+    .agenttext
+    {
+    font-size : 1.5rem;
+    }
+}
+#review
+{
+    background-color: #B1BCE6;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.reviewtext
+{
+    font-family: 'DM Serif Display', serif;
+}
+.reviewp
+{ font-family: 'Times New Roman', Times, serif;
+    
+}
+#footer
+{
+    padding: 7% 15%;
+}
